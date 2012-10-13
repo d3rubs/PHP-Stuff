@@ -1,21 +1,48 @@
+
 <!DOCTYPE HTML>
 <head>
 <title>Homework 3 & 4</title>
-</head>
 <style type="text/css">
-   body {	background-color: #00002f;
-   			color: #fff;
+   body {	background-color: #fff;
+   			color: #874D2A;
+   			font-family: Arial, Helvetica, sans-serif;
+   			font-size: 1.1em;
+   			font-style: olbique;
+   			overflow: hidden;
    			}
+   header{	padding: 0;
+   			margin: 0;
+   			background-image:-webkit-linear-gradient(45deg, #e6e6ee 0%, white 60%, white 100%);
+   			border-bottom: 1px solid black;
+   			overflow: hidden;
+   			}
+   			
+   #exercise3 {	padding: 0;
+   				margin: 0;
+   				background-color: #fff;
+   				overflow: hidden;	
+   			   }
+   			
+   #exercise4 {	padding: 0;
+   				margin: 0;
+   				background-color: #fff;
+   				overflow: hidden;
+   			   }
+   			
 </style>
+</head>
 <body>
-
+<header><p>Domenic DeRubis<br>
+Day 5 - PHP Homework
+</p></header>
+<div id="exercise3">
 <?php
 /******************************************************
  *  Domenic DeRubis - Day 5 PHP Homework October 13,2012 *
  ******************************************************/
 //Exercise 3
 
-	print "<strong><u>Exercise 3</u></strong><br><br>";
+	print "<h2><strong><u>Exercise 3</u></strong></h2>";
 	
 //Define and print item cost and calculate discounts
 	$ItemCost = 12;
@@ -30,9 +57,12 @@
 	else {
 		print "Your item cost, with a 20% discount, is &#36 $ItemDiscount20.<br><br>";
 	}
-
+?>
+</div>
+<div id="exercise4">
+<?php
 //Exercise 4
-	print "<strong><u>Exercise 4</u></strong><br><br>";
+	print "<h2><strong><u>Exercise 4</u></strong></h2>";
 	
 //Calculate and print the multiplication table (to 10) for number n
 	$n = 5;
@@ -44,7 +74,7 @@
 		print "<br>";
 		$i = $i + 1;
 	}
-?>
+?></div>
 </body>
 </html>
 	
