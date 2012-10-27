@@ -1,31 +1,26 @@
-
 <!DOCTYPE HTML>
 <head>
 <title>Homework 3 & 4</title>
 <style type="text/css">
-   body {	background-color: #fff;
-   			color: #874D2A;
-   			font-family: Arial, Helvetica, sans-serif;
-   			font-size: 1.1em;
-   			font-style: olbique;
-   			overflow: hidden;
+   body {		background-image:url('../images/dolores_1440x900_G.jpg');
+   				color: #874D2A;
+   				font-family: Arial, Helvetica, sans-serif;
+   				font-size: 1.1em;
+   				font-style: olbique;
    			}
-   header{	padding: 0;
-   			margin: 0;
-   			background-image:-webkit-linear-gradient(45deg, #e6e6ee 0%, white 60%, white 100%);
-   			border-bottom: 1px solid black;
-   			overflow: hidden;
+   header{		padding: 0;
+   				margin: 0;
+   				border-bottom: 1px solid black;
+   				overflow: hidden;
    			}
    			
    #exercise3 {	padding: 0;
    				margin: 0;
-   				background-color: #fff;
    				overflow: hidden;	
    			   }
    			
    #exercise4 {	padding: 0;
    				margin: 0;
-   				background-color: #fff;
    				overflow: hidden;
    			   }
    			
